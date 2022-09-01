@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "start": "meteor run",
-    "test": "meteor test --once --driver-package meteortesting:mocha"
+    "test": "DEV_DATA=true meteor test --once --driver-package meteortesting:mocha"
   },
   "dependencies": {
     "@babel/runtime": "^7.17.9",
